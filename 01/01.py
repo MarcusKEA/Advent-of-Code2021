@@ -1,5 +1,4 @@
 import io
-import io
 
 def problem1(l):
     return [int(l[i]) > int(l[i-1]) for i in range(1, len(l))].count(True)
